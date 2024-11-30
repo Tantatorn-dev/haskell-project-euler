@@ -1,6 +1,7 @@
 module Main (main) where
 
-import Problem.Problem001
+import Test.HUnit
+import Testcases.TestProblem001
 
-main :: IO ()
-main = print (findAnswer 10)
+main :: IO Counts
+main = runTestTT $ TestList [testProblem001BaseCase, testProblem001AnswerCase]
