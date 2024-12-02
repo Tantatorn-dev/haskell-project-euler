@@ -63,7 +63,7 @@ library
     -- Base language which the package is written in.
     default-language: GHC2021
 
-    exposed-modules: Problem.Problem001, Problem.Problem007, Util.Utils
+    exposed-modules: Problem.Problem001, Problem.Problem006, Problem.Problem007, Util.Utils
 
     build-depends: base ^>=4.17.0.0
 
